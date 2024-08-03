@@ -2,7 +2,7 @@ from TikTokApi import TikTokApi
 import asyncio
 import os
 
-ms_token = os.environ.get("ms_token", None)  # set your own ms_token
+ms_token = os.environ.get("ms_token", "None")  # set your own ms_token
 
 
 async def trending_videos():
